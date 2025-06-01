@@ -30,7 +30,7 @@ adjustments based on the assembled model and output the refined result.*
 
 ## 🎥 Demo Video
 
-[![Watch Demo on YouTube](https://img.youtube.com/vi/1aLHfbPiyJc/0.jpg)](https://www.youtube.com/watch?v=1aLHfbPiyJc)
+[![Watch Demo on YouTube](https://www.youtube.com/watch?v=1aLHfbPiyJc)(./demo.mp4)
 
 ---
 
