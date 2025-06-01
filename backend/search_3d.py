@@ -32,6 +32,8 @@ CORS(app)
 #     )
 
 
+
+
 @app.route("/search", methods=['POST'])
 def search():
     imgUrl = request.json.get('imgUrl')
