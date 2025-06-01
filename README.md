@@ -1,9 +1,8 @@
-
----
-
+````markdown
 # DualShape: Sketch-Based 3D Shape Design With Part Generation and Retrieval
 
 [![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube)](https://www.youtube.com/watch?v=1aLHfbPiyJc)
+[![IEEE Paper](https://img.shields.io/badge/IEEE-Paper-blue?logo=ieee)](https://ieeexplore.ieee.org/document/10418885)
 
 **DualShape** is a novel sketch-based 3D modeling system that enables users to create detailed 3D models by combining deep learning-based part generation with part retrieval from a curated database. This hybrid framework allows both novices and professionals to intuitively design 3D models from free-hand sketches.
 
@@ -13,45 +12,48 @@
 
 Creating 3D shapes from sketches is traditionally challenging due to the sparsity and ambiguity of sketch input. DualShape addresses this challenge by introducing a four-stage hybrid pipeline:
 
-1. **Part Retrieval** – Uses sketch-based visual feature matching (via OpenSSE and BoF-GALIF) to retrieve precise components (e.g., tires).
-2. **Part Generation** – Utilizes deep implicit fields (SDFs) to generate complex components (e.g., car shells) from sketches.
-3. **Part Assembly** – Automatically assembles retrieved/generated parts using geometric rules (alignment, scale, overlap).
-4. **Model Refinement** – Allows manual fine-tuning of parts' position and scale via an interactive UI.
+1. **Part Retrieval** – Sketch-based visual feature matching (OpenSSE + BoF-GALIF) for repeated detailed parts (e.g., tires).
+2. **Part Generation** – Deep implicit field (SDF) generation for diverse composite parts (e.g., car shells).
+3. **Part Assembly** – Auto assembly based on geometric alignment, scale, and overlap rules.
+4. **Model Refinement** – Interactive tools for manual position/scale adjustment in the UI.
+
+---
+
+## 🎥 Demo Video
+
+Click below to see the system in action:
+
+[![Watch on YouTube](https://img.youtube.com/vi/1aLHfbPiyJc/0.jpg)](https://www.youtube.com/watch?v=1aLHfbPiyJc)
+
+---
+
+## 🧠 Framework Overview
+
+![DualShape Framework](./figures/dualshape_framework.png)  
+*Figure: DualShape hybrid generation pipeline with part retrieval, generation, and assembly.*
+
+> 请将上面图片路径 `./figures/dualshape_framework.png` 替换为你 repo 中对应的图片文件路径（可为 `assets/framework.png` 等）。
 
 ---
 
 ## ✨ Features
 
-* 🖊️ **Free-hand sketch interface** with shadow-guidance from retrieved 3D models.
-* 🧩 **Hybrid modeling**: combines retrieval (for detailed, repeated parts) and generation (for diverse composite parts).
-* ⚙️ **User-friendly assembly** and editing tools for spatial alignment and scaling.
-* 👤 **No professional modeling skills required** – beginner-friendly workflow.
+- 🖊️ **Free-hand sketch interface** with real-time shadow guidance
+- 🧩 **Hybrid modeling**: retrieval for fine-grained parts, generation for complex parts
+- ⚙️ **Auto & manual part assembly**
+- 👤 **No 3D modeling skills required**
 
 ---
 
-## 📽 Demo Video
+## 🧪 Performance
 
-Watch the system in action on YouTube:
-👉 [https://www.youtube.com/watch?v=1aLHfbPiyJc](https://www.youtube.com/watch?v=1aLHfbPiyJc)
+| Metric         | DualShape | MeshSDF | Sketch2Mesh |
+|----------------|-----------|---------|-------------|
+| Chamfer Dist. ↓| **2.53e-3** | 4.28e-3 | 3.09e-3     |
+| Normal Cons. ↑ | 89.21%    | 90.68%  | 90.75%      |
 
----
-
-## 🧪 Evaluation
-
-* 📊 Outperforms state-of-the-art methods like MeshSDF and Sketch2Mesh in both detail preservation and part connectivity.
-* ✅ User study with 16 participants shows high satisfaction in usability and results quality.
-* 📐 Metrics:
-
-  * Chamfer Distance (↓): **2.53 × 10⁻³**
-  * Normal Consistency (↑): **89.21%**
-
----
-
-## 📁 Dataset & Architecture
-
-* 💾 **Part Dataset**: 1000 instances (500 car shells + 500 tires) from ShapePFCN.
-* 🖼 **Sketch Dataset**: 18,000 car shell contours + 51,000 tire contours.
-* 🧠 **Network**: ResNet-based encoder + SDF decoder for generation; BoF+GALIF for retrieval.
+- ✅ High-detail reconstruction of tires and shell parts
+- ✅ Clear structural alignment between assembled components
 
 ---
 
@@ -72,9 +74,17 @@ Watch the system in action on YouTube:
 
 ---
 
+## 📁 Dataset Summary
+
+- 🔧 3D part dataset (1000 models): car shells + tires
+- ✏️ Contour dataset: 18,000 car shell sketches, 51,000 tire contours
+- 📦 Supports extensible categories: chairs, tables, etc.
+
+---
+
 ## 📄 Citation
 
-If you find this project useful in your research, please cite:
+If you find this project helpful, please cite:
 
 ```bibtex
 @article{du2024dualshape,
@@ -86,14 +96,16 @@ If you find this project useful in your research, please cite:
   year={2024},
   publisher={IEEE}
 }
-```
+````
+
+📖 Official IEEE link: [https://ieeexplore.ieee.org/document/10418885](https://ieeexplore.ieee.org/document/10418885)
 
 ---
 
-## 🧑‍💻 Authors
+## 👨‍💻 Authors
 
-* **Xusheng Du** – [JAIST](https://www.jaist.ac.jp/)
-* **Tianyu Zhang** – [JAIST](https://www.jaist.ac.jp/)
-* **Haoran Xie** – Associate Professor, [JAIST](https://www.jaist.ac.jp/)
+* **Xusheng Du** – Japan Advanced Institute of Science and Technology (JAIST)
+* **Tianyu Zhang** – JAIST
+* **Haoran Xie** – Associate Professor, JAIST
 
----
+
