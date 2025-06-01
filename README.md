@@ -20,7 +20,7 @@ Traditional sketch-based 3D modeling is often limited by the ambiguity and spars
 
 ## 🧠 Framework Overview
 
-![DualShape Framework](./assets/dualshape_framework.png)
+![DualShape Framework](./framework.png)
 
 > *Note: Replace the image path above with the actual location of your framework diagram (e.g., `assets/framework.png`).*
 
