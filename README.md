@@ -25,15 +25,13 @@ Traditional sketch-based 3D modeling is often limited by the ambiguity and spars
 > *Workflow of the proposed DualShape which takes the hand-drawn sketches as input. After obtaining the corresponding part models
 through the retrieval and generation modules, the part models are assembled into a complete model. Finally, users can perform optimization
 adjustments based on the assembled model and output the refined result.*
-> 
+>
+
 ---
 
 ## 🎥 Demo Video
 
-[![Watch Demo on YouTube](https://www.youtube.com/watch?v=1aLHfbPiyJc)
-<video src="./demo.mp4" controls width="600">
-  Your browser does not support the video tag.
-</video>
+[![Watch Demo on YouTube](https://img.youtube.com/vi/1aLHfbPiyJc/0.jpg)](https://www.youtube.com/watch?v=1aLHfbPiyJc)
 
 ---
 
