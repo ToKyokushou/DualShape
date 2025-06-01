@@ -101,6 +101,3 @@ If you use this work, please cite:
   year={2024},
   publisher={IEEE}
 }
-
-
-
