@@ -22,8 +22,10 @@ Traditional sketch-based 3D modeling is often limited by the ambiguity and spars
 
 ![DualShape Framework](./framework.png)
 
-> *Note: Replace the image path above with the actual location of your framework diagram (e.g., `assets/framework.png`).*
-
+> *Workflow of the proposed DualShape which takes the hand-drawn sketches as input. After obtaining the corresponding part models
+through the retrieval and generation modules, the part models are assembled into a complete model. Finally, users can perform optimization
+adjustments based on the assembled model and output the refined result.*
+> 
 ---
 
 ## 🎥 Demo Video
