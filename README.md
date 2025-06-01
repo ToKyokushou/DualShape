@@ -18,7 +18,7 @@ Traditional sketch-based 3D modeling is often limited by the ambiguity and spars
 
 ---
 
-## 🧠 Framework Overview
+## 🧠 Framework
 
 ![DualShape Framework](./framework.png)
 
