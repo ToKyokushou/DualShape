@@ -30,7 +30,10 @@ adjustments based on the assembled model and output the refined result.*
 
 ## 🎥 Demo Video
 
-[![Watch Demo on YouTube](https://www.youtube.com/watch?v=1aLHfbPiyJc)(./demo.mp4)
+[![Watch Demo on YouTube](https://www.youtube.com/watch?v=1aLHfbPiyJc)
+<video src="./demo.mp4" controls width="600">
+  Your browser does not support the video tag.
+</video>
 
 ---
 
