@@ -41,6 +41,23 @@ Traditional sketch-based 3D modeling is often limited by the ambiguity and spars
 
 ---
 
+## 🖥 System Components
+
+* 🎨 Real-time browser-based sketching interface
+* 🧠 Retrieval engine using OpenSSE
+* 🔧 Assembly engine with geometric alignment
+* 🪚 Manual refinement tools
+
+---
+
+## 📌 Applications
+
+* 🚗 **Car design**
+* 🪑 **Chair modeling**
+* 🧩 Easily extensible to new categories: tables, vases, aircraft, etc.
+
+---
+
 ## 📐 Results & Evaluation
 
 | Metric               | DualShape | MeshSDF | Sketch2Mesh |
@@ -62,6 +79,14 @@ Traditional sketch-based 3D modeling is often limited by the ambiguity and spars
 
 ---
 
+## 🧑‍💻 Authors
+
+* **Xusheng Du** – [JAIST](https://www.jaist.ac.jp/)
+* **Tianyu Zhang** – [JAIST](https://www.jaist.ac.jp/)
+* **Haoran Xie** – Associate Professor, [JAIST](https://www.jaist.ac.jp/)
+
+---
+
 ## 📄 Citation
 
 If you use this work, please cite:
@@ -76,3 +101,6 @@ If you use this work, please cite:
   year={2024},
   publisher={IEEE}
 }
+
+
+
